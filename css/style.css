@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #dd0084;
+    background-image: url('fundoImagem.png');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: -100px;
+}
+
+button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sim {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.sim a {
+    text-decoration: none;
+    color: white;
+}
+
+.nao {
+    background-color: #f44336;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #333;
+}
